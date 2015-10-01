@@ -1,0 +1,7 @@
+filter={"order":"firstName ASC"}
+filter={ "order": "lastName ASC",  "limit": 10 }
+filter={ "order": "lastName ASC", "limit": 10, "skip": 10}
+filter={ "where": {"firstName": "John"} }
+filter={"where": {"firstName": {"like":"%John%" } } }
+filter={"include": "entries"}
+filter={"include": {"entries": ["addresses", "phones", "emailaddresses"] } } 
