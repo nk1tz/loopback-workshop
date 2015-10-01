@@ -10,5 +10,25 @@
     <h1>LoopBack Rocks!</h1>
     <p><b>Here are all my addressbooks:</b></p>
     <div></div>
+    <br>
+    <br>
+    <p><b>Here you may submit Entries to "The big book of people":</b></p>
+    <form action="https://loopback-rest-api-workshop-nk1tz.c9.io/api/Entries" method="post" accept-charset="UTF-8"
+enctype="application/json" autocomplete="off" novalidate>
+        <fieldset>
+            <legend>Contact Information:</legend>
+            First name:<br>
+            <input type="text" name="firstName">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastName">
+            <br>
+            Birthday:<br>
+            <input type="text" name="birthday">
+            <input type="hidden" name="addressBookId" value="1">
+            <br>
+            <input type="submit" value="Submit">
+      </fieldset>
+    </form>
 </body>
 </html>
