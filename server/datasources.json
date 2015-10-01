@@ -2,5 +2,12 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "addressBookDatabase": {
+    "name": "addressBookDatabase",
+    "connector": "mysql",
+    "username": "nk1tz",
+    "hostname": "0.0.0.0",
+    "database": "addressbooks"
   }
 }

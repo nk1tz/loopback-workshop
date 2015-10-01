@@ -1,25 +1,25 @@
 {
-  "name": "AddressBook",
-  "plural": "AddressBooks",
+  "name": "Phone",
+  "plural": "Phones",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "type": {
+      "type": "string"
+    },
+    "phoneType": {
+      "type": "string"
+    },
+    "phoneNumber": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "entries": {
-      "type": "hasMany",
-      "model": "Entry",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
