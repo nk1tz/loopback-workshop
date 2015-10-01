@@ -1,6 +1,3 @@
-$(document).ready(function(){
-alert("Hello World");
-});
 
 $.getJSON("https://loopback-rest-api-workshop-nk1tz.c9.io/api/AddressBooks",
 function(data) {
